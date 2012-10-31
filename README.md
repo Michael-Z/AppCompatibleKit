@@ -1,4 +1,4 @@
 AppCompatibleKit
 ================
 
-This is a project of ios app compatible kit.
+This is an app compatible kit.

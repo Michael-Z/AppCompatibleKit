@@ -29,6 +29,8 @@
 		093A58071640D60200DA1688 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 093A58051640D60200DA1688 /* InfoPlist.strings */; };
 		093A580A1640D60200DA1688 /* AppCompatibleKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A58091640D60200DA1688 /* AppCompatibleKitDemoTests.m */; };
 		093A58151640D66900DA1688 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 093A58141640D66900DA1688 /* README.md */; };
+		093A58181640D7EA00DA1688 /* UIViewController+AppCompatible.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A58171640D7EA00DA1688 /* UIViewController+AppCompatible.m */; };
+		093A581B1640D80A00DA1688 /* UIView+AppCompatible.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A581A1640D80A00DA1688 /* UIView+AppCompatible.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,11 @@
 		093A58081640D60200DA1688 /* AppCompatibleKitDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCompatibleKitDemoTests.h; sourceTree = "<group>"; };
 		093A58091640D60200DA1688 /* AppCompatibleKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCompatibleKitDemoTests.m; sourceTree = "<group>"; };
 		093A58141640D66900DA1688 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		093A58161640D7EA00DA1688 /* UIViewController+AppCompatible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AppCompatible.h"; sourceTree = "<group>"; };
+		093A58171640D7EA00DA1688 /* UIViewController+AppCompatible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AppCompatible.m"; sourceTree = "<group>"; };
+		093A58191640D80A00DA1688 /* UIView+AppCompatible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AppCompatible.h"; sourceTree = "<group>"; };
+		093A581A1640D80A00DA1688 /* UIView+AppCompatible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AppCompatible.m"; sourceTree = "<group>"; };
+		093A581C1640D87100DA1688 /* AppCompatibleKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCompatibleKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +191,11 @@
 		093A58131640D66900DA1688 /* AppCompatibleKit */ = {
 			isa = PBXGroup;
 			children = (
+				093A581C1640D87100DA1688 /* AppCompatibleKit.h */,
+				093A58161640D7EA00DA1688 /* UIViewController+AppCompatible.h */,
+				093A58171640D7EA00DA1688 /* UIViewController+AppCompatible.m */,
+				093A58191640D80A00DA1688 /* UIView+AppCompatible.h */,
+				093A581A1640D80A00DA1688 /* UIView+AppCompatible.m */,
 			);
 			name = AppCompatibleKit;
 			path = ../AppCompatibleKit;
@@ -306,6 +318,8 @@
 				093A57EE1640D60200DA1688 /* AppCompatibleKitDemo.xcdatamodeld in Sources */,
 				093A57F11640D60200DA1688 /* MainViewController.m in Sources */,
 				093A57F41640D60200DA1688 /* FlipsideViewController.m in Sources */,
+				093A58181640D7EA00DA1688 /* UIViewController+AppCompatible.m in Sources */,
+				093A581B1640D80A00DA1688 /* UIView+AppCompatible.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
