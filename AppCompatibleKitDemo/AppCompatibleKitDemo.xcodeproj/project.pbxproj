@@ -108,8 +108,8 @@
 		093A57BD1640D60200DA1688 = {
 			isa = PBXGroup;
 			children = (
-				093A58131640D66900DA1688 /* AppCompatibleKit */,
 				093A58141640D66900DA1688 /* README.md */,
+				093A58131640D66900DA1688 /* AppCompatibleKit */,
 				093A57D41640D60200DA1688 /* AppCompatibleKitDemo */,
 				093A58021640D60200DA1688 /* AppCompatibleKitDemoTests */,
 				093A57CB1640D60200DA1688 /* Frameworks */,
