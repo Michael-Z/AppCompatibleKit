@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "AppCompatibleKit.h"
 
 @interface MainViewController ()
 
@@ -73,4 +74,8 @@
     }
 }
 
+AC_VC_ROTATION_DEVICE_ORIENTATION( TRUE, (UIDeviceOrientationLandscapeLeft|UIDeviceOrientationLandscapeRight) );
+
 @end
+
+
