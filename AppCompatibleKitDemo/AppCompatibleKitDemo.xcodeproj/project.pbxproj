@@ -28,6 +28,7 @@
 		093A57FF1640D60200DA1688 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A57D21640D60200DA1688 /* CoreData.framework */; };
 		093A58071640D60200DA1688 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 093A58051640D60200DA1688 /* InfoPlist.strings */; };
 		093A580A1640D60200DA1688 /* AppCompatibleKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A58091640D60200DA1688 /* AppCompatibleKitDemoTests.m */; };
+		093A58151640D66900DA1688 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 093A58141640D66900DA1688 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		093A58061640D60200DA1688 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		093A58081640D60200DA1688 /* AppCompatibleKitDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCompatibleKitDemoTests.h; sourceTree = "<group>"; };
 		093A58091640D60200DA1688 /* AppCompatibleKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCompatibleKitDemoTests.m; sourceTree = "<group>"; };
+		093A58141640D66900DA1688 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 		093A57BD1640D60200DA1688 = {
 			isa = PBXGroup;
 			children = (
+				093A58131640D66900DA1688 /* AppCompatibleKit */,
+				093A58141640D66900DA1688 /* README.md */,
 				093A57D41640D60200DA1688 /* AppCompatibleKitDemo */,
 				093A58021640D60200DA1688 /* AppCompatibleKitDemoTests */,
 				093A57CB1640D60200DA1688 /* Frameworks */,
@@ -175,6 +179,14 @@
 				093A58051640D60200DA1688 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093A58131640D66900DA1688 /* AppCompatibleKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppCompatibleKit;
+			path = ../AppCompatibleKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +266,7 @@
 				093A57E51640D60200DA1688 /* Default-568h@2x.png in Resources */,
 				093A57E81640D60200DA1688 /* MainStoryboard_iPhone.storyboard in Resources */,
 				093A57EB1640D60200DA1688 /* MainStoryboard_iPad.storyboard in Resources */,
+				093A58151640D66900DA1688 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
